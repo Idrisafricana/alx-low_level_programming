@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - this is the entry point
+ * main - this code prints a line using the put function
  *
- * Return: Always 0
+ * Return: 0 if successful
  */
 int main(void)
 {
