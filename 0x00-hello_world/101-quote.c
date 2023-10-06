@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
+/**
+ * main - Write a C program that prints exactly to the standard error
+ *
+ * Return: 1 to indicate success
+ */
 
 int main(void)
 {
