@@ -1,17 +1,18 @@
 #include <stdio.h>
-/*
- * main - program that prints all single digit from zero
+/**
+ * main - Entry point
  *
- * Return: 0 Always
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int singledig;
-	
+
 	for (singledig = 0; singledig < 10; singledig++)
 	{
 		printf("%d", singledig);
 	}
+
 	printf("\n");
 	return (0);
 }
