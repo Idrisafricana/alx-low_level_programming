@@ -1,15 +1,15 @@
-#include <stdio.h>i
-
+#include <stdio.h>
 /**
- * main - program that prints all single digit from zeror
+ * main - program that prints all single digit from zero
  *
- * Return: Always 0.
+ * Return: 0 Always
  */
 int main(void)
 {
 	int singledig;
 	
-	for (singledig = 0; singledig < 10; singledig++){
+	for (singledig = 0; singledig < 10; singledig++)
+	{
 		printf("%d", singledig);
 	}
 	printf("\n");
