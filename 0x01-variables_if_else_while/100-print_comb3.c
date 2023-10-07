@@ -5,7 +5,7 @@
  * main -prints all possible different combinations of two digits
  * in ascending order, separated by a comma followed by a space.
  *
- * Return: Always 0.
+ * Return: 0 Always (successful)
  *
  */
 
