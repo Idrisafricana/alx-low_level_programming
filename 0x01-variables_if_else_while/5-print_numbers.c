@@ -1,5 +1,5 @@
 #include <stdio.h>
-/**
+/*
  * main - program that prints all single digit from zero
  *
  * Return: 0 Always
