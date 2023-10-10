@@ -4,7 +4,7 @@
 /**
  * jack_bauer - entry point
  *
- * Description: function that prints every minute of
+ * Description: This function prints every minute of
  *  the day of Jack Bauer, starting from 00:00 to 23:59.
  *
  *  Return: 0 if successfu
