@@ -1,4 +1,4 @@
-
+#include "main.h"
 /**
  * alloc_grid - allocate and initialize a 2D array (grid)
  * @width: width of the grid
