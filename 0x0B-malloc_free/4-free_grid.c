@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -7,7 +5,7 @@
  * @grid: the 2D grid to be freed
  * @height: height dimension of the grid
  *
- * Description: This function frees the dynamically allocated memory of a 2D grid.
+ * Description: funxn frees the dynamically allocated memory of a 2D grid.
  * Return: Nothing
  */
 void free_grid(int **grid, int height)
