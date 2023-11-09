@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - prints its own opcodes
  * @argc: number of arguments
@@ -9,6 +10,8 @@
  */
 int main(int argc, char *argv[])
 {
+	int bytes, i;
+
 	if (argc != 2)
 	{
 		printf("Error\n");
@@ -23,10 +26,10 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	arr = (char *)main;
-
 	for (i = 0; i < bytes; i++)
 	{
+		char *arr = (char *)main;
+
 		if (i == bytes - 1)
 		{
 			printf("%02hhx\n", arr[i]);
@@ -34,5 +37,6 @@ int main(int argc, char *argv[])
 		}
 		printf("%02hhx ", arr[i]);
 	}
+
 	return (0);
 }
